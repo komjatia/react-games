@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: 2rem;
     }
     h3{
-        padding: 1.5rem;
+        padding: 1.5rem 0;
         font-size: 1.4rem;
     }
     p{
@@ -33,6 +33,9 @@ const GlobalStyle = createGlobalStyle`
     a{
         text-decoration: none;
         color: #4f4f4f;
+    }
+    img{
+        display:block;
     }
 `;
 

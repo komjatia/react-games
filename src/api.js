@@ -38,4 +38,6 @@ export const upcommingGamesURL = () => `${baseAPI}${upcommingGames}`;
 export const newGamesURL = () => `${baseAPI}${newGames}`;
 
 //Game Details
-export const GameDetailURL = (id) => `${baseAPI}games${id}`;
+export const GameDetailURL = (game_id) => `${baseAPI}games/${game_id}`;
+export const GameScreenshotURL = (game_id) =>
+  `${baseAPI}games/${game_id}/screenshots`;
